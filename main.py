@@ -1,0 +1,29 @@
+'''
+Criar um programa onde o usuário cria uma lista de tarefas a ser executado no dia.
+Ao terminar, crie um repositório local e suba o repositório remoto no github
+
+'''
+# lista vazia
+tarefas = []
+
+# laço de repetição
+while True:
+    # usuário informa item da tarefa
+    nova_tarefa = input('Informe a nova tarefa ou Enter para encerrar e exibir a lista: ')
+
+    # verifica se o usuário inseriu nova tarefa
+    if nova_tarefa != '':
+        tarefas.append(nova_tarefa)
+        continue
+    else:
+        break
+
+# exibir a lista de tarefas
+for tarefa in tarefas:
+    print(tarefa)
+
+
+
+
+
+    
